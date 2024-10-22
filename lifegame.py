@@ -5,7 +5,7 @@ import pandas as pd
 import time
 from matplotlib.colors import ListedColormap
 
-st.title("Stream Life Game")
+st.title("ライフゲーム！")
 
 class LifeGame:
     def __init__(self, csv_file):
