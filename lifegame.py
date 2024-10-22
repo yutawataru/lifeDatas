@@ -6,7 +6,6 @@ import time
 from matplotlib.colors import ListedColormap
 
 st.title("Stream Life Game")
-
 class LifeGame:
     def __init__(self, csv_file):
         if isinstance(csv_file, str):
